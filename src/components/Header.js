@@ -1,4 +1,9 @@
 import React from 'react';
+import Navbars from './Navbars';
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <div>
+      <Navbars />
+    </div>
+  );
 }
